@@ -1,0 +1,205 @@
+:root{
+    --color-primary-button-backgroud-light: #d2453e;
+    --color-primary-button-text-light: #fdfdfd;
+    --color-primary-button-backgorud-light: #2e2e36;
+    --color-primary-overlay-light-1: #eeeeee;
+    --color-primary-button-backgroud-dark: #bc4444;
+    --color-primary-button-backgroud-light2: #257ecb;
+    --color__border-divider-light-1: #d2d2d2;
+}
+
+
+/* seccion1 */
+.init--info-categories{
+    background-image: url('https://lh4.googleusercontent.com/uQCcV93a-AIbRywlOvCcdxmq_SQ4y-jYa02XyS1tQgmSWNC7EczaZRH3QvazLpMvBdE=w2400');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.init--info-categories p{
+    color: white;
+    font-size: 4.6rem;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* estilos de info marcas */
+.product-container{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.product-container article{
+    width: 90%;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.product-container article h2{
+    font-size: 2.4rem;
+    padding: 12px;
+}
+.product-container article p{
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1.4rem;
+    background-color: var(--color-primary-overlay-light-1);
+}
+.info-eternit{
+    background-color: var(--color-primary-button-backgroud-light);
+}
+.info-eternit h2{
+    color: var(--color-primary-button-text-light);
+}
+.info-ajover{
+    background-color: var(--color-primary-button-backgroud-light2);
+}
+.info-ajover h2{
+    color: var(--color-primary-button-text-light);
+}
+
+/* items  */
+.items-container{
+    width: 95%;
+    padding: 14px;
+
+}
+.item-content{
+    border: solid 1.5px var(--color__border-divider-light-1);
+    margin: 16px 0;
+    border-radius: 6px;
+}
+.item-content h2{
+    font-size: 2.1rem;
+    color: var(--color-primary-button-backgorud-light);
+    padding-left: 12px;
+    padding-top: 6px;
+}
+.info-tecnica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-content img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+}
+.item-content .caracteristicas-info{
+    background-color: var(--color-primary-overlay-light-1);
+    border-top: solid 1px var(--color__border-divider-light-1);
+}
+.item-content .caracteristicas-info h3{
+    font-size: 1.8rem;
+    margin-top: 12px;
+    padding-left: 10px;
+    color: var(--color-primary-button-backgorud-light);
+}
+.item-content .caracteristicas-info ul{
+    padding: 10px 18px;
+}
+.item-content .caracteristicas-info ul li{
+    list-style: circle;
+    font-size: 1.4rem;
+    color: var(--color-primary-button-backgorud-light);
+    padding: 4px;
+}
+.info--coemsa-container{
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--color-primary-button-backgroud-dark);
+    color: var(--color-primary-button-text-light);
+    padding: 18px 0;
+    display: flex;
+    flex-direction: column;
+}
+.info--coemsa{
+    display: flex;
+    margin: 15px;
+    border: solid 2px;
+    padding: 10px;
+}
+.info--coemsa-container .info--coemsa h3{
+    font-size: 1.6rem;
+}
+.info--coemsa-container .info--coemsa p{
+    font-size: 1.4rem;
+}
+.info--coemsa-container .info--coemsa img{
+    width: 80px;
+}
+.info--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* responsive design */
+@media(min-width: 1024px){
+    .product-container article{
+        width: 75%;
+        margin: 25px 0;
+
+    }
+    .product-container article h2{
+        font-size: 3.6rem;
+    }
+    .product-container article p{
+        font-size: 2.1rem;
+    }
+
+    .items-container .item-content{
+        width: 540px;
+        margin: 25px;
+        height: fit-content;
+    }
+    .items-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .info--coemsa-container{
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

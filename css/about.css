@@ -1,0 +1,67 @@
+:root{
+    --color-primary-button-backgroud-light: #d2453e;
+    --color-primary-button-text-light: #fdfdfd;
+    --color-primary-button-backgorud-light: #2e2e36;
+    --color-primary-overlay-light-1: #eeeeee;
+    --color-primary-button-backgroud-dark: #bc4444;
+}
+
+
+.about-time{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary-button-backgroud-dark);
+    color: var(--color-primary-button-text-light);
+    height: 120px;
+}
+.about-time h2{
+    font-size: 2.4rem;
+}
+
+.about-time p{
+    margin: 10px 0;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+/* info ubicacciones */
+.ubication-content{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 12px 0;
+}
+.ubication-content  h1{
+    font-size: 2.4rem;
+    margin: 12px 0;
+    color: var(--color-primary-button-backgorud-light);
+    font-weight: 700;
+}
+.ubication-content article h2{
+    font-size: 1.8rem;
+}
+.ubication-content article p{
+    font-size: 1.6rem;
+    padding: 6px 0;
+}
+.ubication-content article span{
+    font-size: 1.6rem;
+}
+/* Ubicacion- mapa */
+.maps-content{
+    width: 100%;
+}
+.maps-content iframe{
+    width: 100%;
+}
