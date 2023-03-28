@@ -5,6 +5,7 @@
     --color-primary-overlay-light-1: #eeeeee;
     --color-primary-button-backgroud-dark: #bc4444;
 }
+
 /* seccion 1 */
 .init--info-section{
     background-image: url('https://lh6.googleusercontent.com/O5yKOLkkZbxlGPLzATTlQpukFUSHExDQaVFxl53bErHDmuU2kGp2OXLx4Caa7Y7WkHE=w2400');
@@ -27,10 +28,11 @@
 .info-categorias-content{
     width: 100%;
     min-width: 320px;
+    padding-top: 15px;
 }
 .info-categorias-content h2{
     padding-left: 18px;
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     font-weight: 500;
     color: rgb(49, 48, 48);
     margin-top: 18px;
@@ -123,6 +125,22 @@
     font-size: 1.4rem;
     width: 70%;
 }
+/* ads */
+.ads-container{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.ads-container div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 15px 0;
+}
+.ads-container div img{
+    width: 90%;
+} 
 /* Contacta Con nosotros */
 .contactos-container{
     background-color: var(--color-primary-button-backgroud-dark);
@@ -188,6 +206,21 @@
         width: 260px;
         height: 55px;
     }
+    .ads-container{
+        width: 100%;
+        min-width: 320px;
+        display: flex;
+        flex-direction: row;
+    }
+    .ads-container div{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .ads-container div img{
+        width: 80%;
+    } 
 }
 
 

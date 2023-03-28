@@ -26,8 +26,13 @@ header{
     flex-direction: column;
     background-color: var(--color-primary-button-backgorud-light);
 }
+header #header-main{
+    display: flex;
+    justify-content: center;
+}
 header #header-main img{
-    width: 55px;
+    width: 90px;
+    margin-top: 15px;
 }
 header .info--span-header{
     width: 100%;
@@ -40,7 +45,7 @@ header .info--span-header{
     color: var(--color-primary-button-text-light);
 }
 nav{
-    margin: 20px 0;
+    margin: 14px 0;
 }   
 nav ul li{
     list-style: none;
@@ -61,7 +66,8 @@ footer{
     padding: 0 25px;
 }
 footer img{
-    width: 80px;
+    width: 90px;
+    margin-top: 15px;
 }
 footer a{
     color: var(--color-primary-button-text-light);
@@ -113,7 +119,7 @@ footer h3{
         font-size: 1.8rem;
     }
     header #header-main img{
-        width: 65px;
+        width: 100px;
         margin: 10px 0;
     }
 
