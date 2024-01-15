@@ -3,7 +3,8 @@ Custom Css
 */
 /* Header */
 .navbar-content{
-    background-color: #d1453e;
+    background-color: #082171;
+    /* background-color: #d1453e; */
 }
 .navbar-brand img{
     width: 120px;
@@ -49,3 +50,65 @@ Custom Css
     width: 100%;
     height: 375px;
 }
+
+.imagen1{
+    width: 100%;
+    height: 600px;
+    background-image: url('/assets/images/salida1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagen2{
+    width: 100%;
+    height: 600px;
+    background-image: url('/assets/images/slide2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imagen3{
+    width: 100%;
+    height: 600px;
+    background-image: url('/assets/images/arteSlide3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imagen4{
+    width: 100%;
+    height: 600px;
+    background-image: url('/assets/images/arteSlide4.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-destacable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-destacable div{
+    margin: 0 25px;
+}
+.imagenProDestacable1{
+    width: 50.0rem;
+    height: 50.0rem;
+    background-image: url('/assets/images/initEspanola.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.imagenProDestacable2{
+    width: 50.0rem;
+    height: 50.0rem;
+    background-image: url('/assets/images/home-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* Black: #000000
+Dark Blue: #082171
+White: #FFFFFF
+Gold: #E1A529
+Yellow: #F4D92A
+Light Grey: #E6E5E4 */
